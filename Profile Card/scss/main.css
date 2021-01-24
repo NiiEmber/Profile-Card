@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Kumbh Sans', sans serif;
+}
+
+section {
+  background: #19a2ae;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .card {
+  background: white;
+  width: 21.875em;
+  border-radius: 1.25em;
+  overflow: hidden;
+  text-align: center;
+}
+
+section .card .header {
+  background-image: url(/images/bg-pattern-card.svg);
+  background-size: cover;
+  height: 9.375em;
+}
+
+section .card .img-holder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid white;
+  margin: -50px auto 30px auto;
+}
+
+section .card .img-holder img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+section .card .body {
+  padding: 0 20px 30px;
+}
+
+section .card .body .age, section .card .body .location, section .card .body .meta {
+  font-weight: 400;
+  color: #969696;
+  opacity: .6;
+}
+
+section .card .body .stat {
+  font-size: 18px;
+}
+
+section .card .body .name-age {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+section .card .body .name-age .age {
+  font-weight: 400;
+}
+
+section .card .footer {
+  border-top: 1px solid #dcdada;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 25px;
+}
+
+section .card .footer .stats {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .card .footer .stats .value {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+section .card .footer .stats .meta {
+  font-size: .7rem;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=main.css.map */
